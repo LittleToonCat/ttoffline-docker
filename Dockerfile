@@ -8,7 +8,6 @@ RUN apt-get update && apt-get install -y \
     libx11-6 \
     python3 \
     python3-pip \
-    wget \
   && rm -rf /var/lib/apt/lists/*
 
 # Install requests module for the updater script.

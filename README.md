@@ -5,7 +5,7 @@ This Image will allow you to host a Toontown Offline Mini-Server inside a Docker
 
 Example run commmand on a current working directory (recommanded):
 
-`$ docker run -v$PWD:/$PWD -w/$PWD -u $(id -u):$(id -g) --rm --net=host -dt littletooncat/ttoffline:latest`
+`$ docker run --name=ttoff-server -v$PWD:/$PWD -w/$PWD -u $(id -u):$(id -g) --rm --net=host -dt littletooncat/ttoffline:latest`
 
 NOTE: The image always checks for updates before starting the server, so whenever a new update releases, simply just restart the container to apply the update.
 

@@ -1,0 +1,11 @@
+# Offline related folders/files
+offline
+
+config
+astron
+resources
+logs
+backups
+
+settings.json
+bans.json

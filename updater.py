@@ -8,7 +8,7 @@ import bz2
 import stat
 from pathlib import Path
 
-PATCHER_LINK = 'https://releases.ttoffline.com/'
+PATCHER_LINK = 'https://releases.toontownoffline.net/'
 if sys.platform == 'win32':
     MANIFEST_FILENAME = 'windows.json'
 elif 'linux' in sys.platform:
